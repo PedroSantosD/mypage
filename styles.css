@@ -1,0 +1,124 @@
+/* Importando fontes românticas e modernas do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/* Estilo do corpo */
+body {
+    background: linear-gradient(to right, #fce9e9, #ffefc2); /* Gradiente de fundo moderno */
+    font-family: 'Raleway', sans-serif; /* Fonte para o corpo */
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 20px;
+    position: relative; /* Necessário para o fundo animado */
+}
+
+/* Estilo do cabeçalho */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra do cabeçalho */
+    padding: 10px 0;
+    z-index: 100; /* Coloca o cabeçalho acima do conteúdo */
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+    color: #d85d9b; /* Cor do título */
+    font-size: 3.5em; /* Tamanho da fonte do título */
+    margin: 60px 0 20px 0; /* Espaço abaixo do título */
+    font-family: 'Great Vibes', cursive; /* Fonte elegante para o título */
+    text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.8), 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra no texto do título */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    border-bottom: 2px solid rgba(216, 93, 155, 0.5); /* Linha abaixo do título */
+    padding-bottom: 15px; /* Espaço abaixo do título */
+    transition: color 0.3s, transform 0.3s; /* Transições suaves */
+}
+
+h1:hover {
+    color: #ff6f92; /* Muda a cor ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o título ao passar o mouse */
+}
+
+/* Estilo da imagem */
+img {
+    display: block; /* Exibe a imagem como bloco */
+    max-width: 80%; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 20px auto; /* Centraliza a imagem com espaço */
+    border-radius: 15px; /* Bordas arredondadas na imagem */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Sombra suave na imagem */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transição suave ao passar o mouse */
+}
+
+img:hover {
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6); /* Sombra mais intensa ao passar o mouse */
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 1.25em; /* Tamanho da fonte do parágrafo */
+    line-height: 1.8; /* Espaçamento entre linhas */
+    text-align: justify; /* Justifica o texto */
+    margin-top: 20px; /* Espaço acima do parágrafo */
+    background-color: rgba(255, 255, 255, 0.95); /* Fundo branco com transparência */
+    padding: 25px; /* Espaço interno no parágrafo */
+    border-radius: 15px; /* Bordas arredondadas no parágrafo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave no parágrafo */
+    transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+}
+
+p:hover {
+    background-color: rgba(255, 255, 255, 1); /* Muda a cor de fundo ao passar o mouse */
+    transform: translateY(-2px); /* Levemente levanta o parágrafo ao passar o mouse */
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #d85d9b; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    padding: 15px 30px; /* Espaço interno */
+    border-radius: 25px; /* Bordas arredondadas */
+    font-size: 1em; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    margin: 20px auto; /* Centraliza o botão */
+    display: block; /* Exibe como bloco */
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+}
+
+button:hover {
+    background-color: #ff6f92; /* Cor do botão ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o botão ao passar o mouse */
+}
+
+/* Estilo de links (se necessário) */
+a {
+    color: #d85d9b; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Negrito para links */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Estilo dos ícones de redes sociais */
+.social-icons {
+    text-align: center; /* Centraliza os ícones */
+    margin-top: 30px; /* Espaço acima dos ícones */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Espaço entre os ícones */
+    font-size: 1.5em; /* Tamanho dos ícones */
+    color: #d85d9b; /* Cor dos ícones */
+    transition: transform 0.3s; /* Transição suave */
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Aumenta o ícone ao passar o mouse */
+}
